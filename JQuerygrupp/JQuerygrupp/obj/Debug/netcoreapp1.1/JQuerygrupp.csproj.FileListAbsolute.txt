@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\bin\Debug\netcoreapp1.1\JQuerygrupp.deps.json
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\bin\Debug\netcoreapp1.1\JQuerygrupp.runtimeconfig.json
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\bin\Debug\netcoreapp1.1\JQuerygrupp.runtimeconfig.dev.json
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\bin\Debug\netcoreapp1.1\JQuerygrupp.dll
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\bin\Debug\netcoreapp1.1\JQuerygrupp.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\obj\Debug\netcoreapp1.1\JQuerygrupp.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\obj\Debug\netcoreapp1.1\JQuerygrupp.AssemblyInfo.cs
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\obj\Debug\netcoreapp1.1\JQuerygrupp.dll
+c:\users\administrator\documents\visual studio 2017\Projects\JQuerygrupp\JQuerygrupp\obj\Debug\netcoreapp1.1\JQuerygrupp.pdb

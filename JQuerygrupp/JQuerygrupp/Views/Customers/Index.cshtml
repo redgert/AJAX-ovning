@@ -1,0 +1,40 @@
+﻿@model JQuerygrupp.Models.CustomerIndexVM[]
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="jumbotron" style="text-align:center">En lista med namn</h1>
+    
+        @foreach (var c in Model)
+        {
+            <div class="row">
+                <div class="col-xs-5"></div>
+                <div class="col-xs-2">
+                    <div class="customers" customerId="@c.Id" style="text-align:center">
+                        @c.Name
+                    </div>
+                </div>
+                <div class="col-xs-5"></div>
+            </div>
+            <br />
+
+
+        }
+    
+    <div class="text-center">
+        <input class="btn btn-primary" style="align-items:center" type="button" name="GetAll" value="Hämta alla kunder" id="GetAll" />
+    </div>
+    <div id="allCustomers" style="text-align:center"></div>
+    <div id="customerInfoDiv" style="text-align:center"></div>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="~/JS/JavaScript.js"></script>
+    <script src="~/JS/Json.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
